@@ -1,4 +1,5 @@
 # csvcombine
+[![CI](https://github.com/EEmGuzman/csvcombine/actions/workflows/test.yml/badge.svg)](https://github.com/EEmGuzman/csvcombine/actions/workflows/test.yml)
 
 Combines multiple CSV files into a single one by printing to standard out. A new column, "filename", is added to the combined csv to signify the origin file of a row of data.
 
