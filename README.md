@@ -1,14 +1,14 @@
 # csvcombine
 [![CI](https://github.com/EEmGuzman/csvcombine/actions/workflows/test.yml/badge.svg)](https://github.com/EEmGuzman/csvcombine/actions/workflows/test.yml)
 
-Combines multiple CSV files into a single one by printing to standard out. A new column, "filename", is added to the combined csv to signify the origin file of a row of data.
+Combines multiple CSV files into a single one by printing to standard out. A new column, "filename", is added to the combined CSV to signify the origin file of a row of data.
 
 ## Usage
 
 There are two primary ways to provide the CSV files that will be combined.
 
 #### - Directory method
-Place all of your CSV files into a single directory and pass it as an argument to combineCSV.py
+Place all of your CSV files into a single directory and pass it as an argument to csvcombine.py
 
 ```
 python csvcombine.py ./fixtures/
